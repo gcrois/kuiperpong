@@ -1,0 +1,60 @@
+$background-color: #000;
+$canvas-border-color: #fff;
+$paddle-color: #fff;
+$ball-color: #fff;
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $background-color;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  border: 2px solid $canvas-border-color;
+  background-color: $background-color;
+}
+
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.control-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+
+  label {
+    color: white;
+  }
+
+  input, select {
+    width: 100px;
+    text-align: center;
+  }
+}
+
+button {
+  padding: 5px 10px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
