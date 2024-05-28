@@ -1,6 +1,6 @@
 # Pong Game with Adjustable Settings
 
-This is a basic Pong game implemented in TypeScript and React. The game allows you to adjust various settings such as paddle size, ball size, speed, noise type, and noise intensity. The game settings are encoded in the URL, allowing you to share the specific configuration with others. A live demo of the game can be found [here](https://gcrois.github.io/kuiperpong/).
+This is a basic Pong game implemented in TypeScript and React. The game allows you to adjust various settings such as paddle size, ball size, speed, noise type, and noise intensity. The game settings are encoded in the URL, allowing you to share the specific configuration with others. A live demo of the game can be found [here](https://gcrois.github.io/kuiperspong/).
 
 ## Features
 
